@@ -1,0 +1,45 @@
+{
+  "name": "guidebot",
+  "version": "2.3.5",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+  },
+  "author": "Evelyne Lachance <eslachance@gmail.com> (http://evie.codes)",
+  "contributors": [
+    "York (http://anidiots.guide)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+  },
+  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
+  "dependencies": {
+    "cat-facts": "^1.0.2",
+    "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.3.0",
+    "dog-facts": "^1.0.3",
+    "enmap": "^0.4.6",
+    "enmap-level": "^1.0.0",
+    "google-translate-api": "^2.3.0",
+    "moment": "^2.21.0",
+    "moment-duration": "0.0.6",
+    "moment-duration-format": "^2.2.2",
+    "npm": "^5.8.0",
+    "pokemon-gif": "^1.0.12",
+    "querystring": "^0.2.0",
+    "snekfetch": "^3.6.4",
+    "superagent": "^3.8.2",
+    "trello": "^0.8.0"
+  }
+}
